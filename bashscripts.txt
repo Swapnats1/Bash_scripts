@@ -1,0 +1,18 @@
+#! /bin/bash
+cd /c/Users/sxxxx
+mkdir tmp
+cd tmp
+mkdir bash-folder
+cd bash-folder
+touch bashscript.txt
+echo "creating new file" > bashscript.txt
+
+
+or
+
+
+#! /bin/bash
+cd /c/users/sxxx
+mkdir tmp/bash-folder
+touch tmp/bash-folder/bashscript.txt
+echo "creating new file" > tmp/bash-folder/bashscripts.txt
